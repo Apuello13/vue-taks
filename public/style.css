@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red{
+    font-size: 30px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.sub-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.btn{
+    background: #A569BD;
+    color: #fff;
+    border: 1px solid #A569BD;
+    width: 80%;
+    border-radius: 8px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+input, textarea{
+    border: 1px solid #B2BABB;
+    height: 25px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+input, textarea:focus{
+    outline: none;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input::placeholder{
+    padding-left: 5px;
+}
+
+hr{
+    border-color: #E5E8E8;
+    margin-bottom: 10px;
+}
+
+/*CSS FOR LOGIN*/
+
+.container{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-login{
+    display: flex;
+    width: 600px;
+    height: auto;
+    box-shadow: 0 10px 15px #E5E8E8;
+  }
+  .container-login div{
+    text-align: center;
+  }
+  .left{
+    width: 50%;
+    padding: 15px;
+  }
+  .right{
+    width: 50%;
+    background: #F9E79F;
+    padding: 10px;
+    color: #fff;
+  }
+/*END CSS FOR LOGIN*/
+
+/*CSS FOR HOME*/
+.content{
+    text-align: center;
+}
+.sub-content{
+    margin: 0 auto;
+    width: 300px;
+}
+.nav{
+    height: 40px;
+    text-align: right;
+    padding: 10px 15px 0 0;
+}
+
+.btn-taks{
+    background: #5DADE2;
+    color: #fff;
+    border: 1px solid #5DADE2;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+}
+
+.list li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 30px;
+    border: 1px solid #E5E7E9;
+    border-radius: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.list li:hover{
+    border-color: #3498DB;
+}
+
+.taks-btn{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#check{
+    padding-left: 10px; 
+    color: #808B96; 
+}
+
+#delete{
+    padding-right: 10px; 
+    color: #E74C3C; 
+}
+/*END CSS FOR HOME*/
